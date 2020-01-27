@@ -1,0 +1,31 @@
+{
+    "notiSena":[
+      
+    
+      {
+        "id": 1,
+        "titulo": "El SENA busca fortalecer derechos de personas con discapacidad",
+        "contenido": "Lunes, 02 de diciembre de 2019 Con oportunidades de formación, empleo, certificación por competencias y emprendimiento la Entidad ratifica su compromiso por la inclusión de esta población en el país.",
+        "img": "discapacidad.jpg",
+        "url": "http://www.sena.edu.co/es-co/Noticias/Paginas/noticia.aspx?IdNoticia=4181"
+      },
+      {
+        "id": 2,
+        "titulo": "500 jovenes se graduan en formación y como bachilleres",
+        "contenido": "El grupo de Bogotá hace parte de los 143 mil bachilleres en todo el país que cierran el 2019 con doble título, el de bachiller y el de técnico del SENA.",
+        "img": "dobletitulacion.jpg",
+        "url": "http://www.sena.edu.co/es-co/Noticias/Paginas/noticia.aspx?IdNoticia=4180"
+      },
+    
+      {
+        "id": 3,
+        "titulo": "Guaviare estrena nueva sede del SENA",
+        "contenido": "Se puso al servicio de la comunidad el Centro Agroindustrial, Turístico y Tecnológico del Guaviare que reemplazará la edificación actual que tiene el departamento. La infraestructura beneficiará a cerca de 20800 jóvenes.",
+        "img": "sedesena.jpg",
+        "url":"http://www.sena.edu.co/es-co/Noticias/Paginas/noticia.aspx?IdNoticia=4179"
+      }
+    
+      
+    ]
+  }
+  

@@ -1,0 +1,23 @@
+<ion-header>
+    <ion-toolbar color="secondary-tint">
+      <ion-buttons side="start">
+        <ion-back-button defaultHref="/"></ion-back-button>
+          <ion-title>Descripción</ion-title>
+          
+            
+          </ion-buttons>
+    </ion-toolbar>
+  
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-button (click)="share()">
+      <ion-icon size="medium"  name="share" slot="icon-only" ></ion-icon>
+
+    </ion-button>
+  <p>Aquí va la descripción del curso</p>
+  <p>{{program.id}}</p>
+  <p>{{program.name}}</p>
+</ion-list>
+</ion-content>

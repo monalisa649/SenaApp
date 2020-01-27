@@ -1,0 +1,7 @@
+{
+  "name": "AppSena",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

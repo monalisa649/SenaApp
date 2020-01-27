@@ -1,0 +1,20 @@
+{
+    "programas":{
+        "0":{
+        
+        "name": "Tecnología en Electricidad industrial",
+        "tipoForm": "Titulada",
+        "nivelForm": "Tecnólogo",
+        "img": "electricidad.jpg",
+        "jornada": "Diurna"  
+        },
+        "1":{
+        
+        "name": "Tecnología en Electricidad industrial",
+        "tipoForm": "Titulada",
+        "nivelForm": "Tecnólogo",
+        "img": "electricidad.jpg",
+        "jornada": "Diurna"  
+        }
+    }
+}

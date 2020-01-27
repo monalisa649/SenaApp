@@ -1,0 +1,34 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-title>Ingresar</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content padding>
+    <ion-item>
+      <ion-label>
+        Email
+      </ion-label>
+      <ion-input type= "text" [(ngModel)]="user.email" required></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label>
+          Contraseña
+        </ion-label>
+        <ion-input type= "password" [(ngModel)]="user.password" required></ion-input>
+      </ion-item>
+      <ion-buttons>
+        <ion-button size="medium" (click)="onLogin()">Ingresar</ion-button>
+        <ion-button size="medium" href="/register">New</ion-button>
+      </ion-buttons>
+  <ion-buttons>
+    <ion-button size="medium" (click)="onLoginFacebook()">
+      <ion-icon name="logo-facebook"></ion-icon>
+    </ion-button>
+    <ion-button size="medium" (click)="onLoginGoogle()">
+      <ion-icon name="logo-google"></ion-icon>
+    </ion-button>
+    
+  </ion-buttons>
+  </ion-content>
+  

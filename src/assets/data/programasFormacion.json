@@ -1,0 +1,144 @@
+{
+    "programasForm":[
+      {
+        "id": 1,
+        "name": "Tecnología en Electricidad industrial",
+        "tipoForm": "Titulada",
+        "nivelForm": "Tecnólogo",
+        "img": "electricidad.jpg",
+        "jornada": "Diurna"  
+      },
+    
+      {
+          "id": 2,
+          "name": "Tecnología en Análisis y desarrollo de sistemas de información",
+          "tipoForm": "Titulada",
+          "nivelForm": "Tecnólogo",
+          "img": "programacion.jpg",
+          "jornada": "Virtual"  
+      },
+    
+      {
+          "id": 3,
+          "name": " Tecnología Desarrollo Gráfico de Proyectos de Ingeniería",
+          "tipoForm": "Titulada",
+          "nivelForm": "Tecnólogo",
+          "img": "diseño.jpg",
+          "jornada": "Virtual"  
+      },
+      {
+        "id": 4,
+        "name": "Técnico en  Construcción de Edificaciones",
+        "tipoForm": "Titulada",
+        "nivelForm": "Tecnólogo",
+        "img": "construccion.jpg",
+        "jornada": "Diurna"  
+      },
+    
+      {
+          "id": 5,
+          "name": "Técnico de Motores Diesel",
+          "tipoForm": "Titulada",
+          "nivelForm": "Tecnólogo",
+          "img": "motores.jpg",
+          "jornada": "Virtual"  
+      },
+    
+      {
+          "id": 6,
+          "name": " Metodologías de calidad para el Desarrollo de Software",
+          "tipoForm": "Complementaria",
+          "nivelForm": "Tecnólogo",
+          "img": "programacion.jpg",
+          "jornada": "Virtual"  
+      },
+      {
+        "id": 7,
+        "name": "Tecnología en Electricidad industrial",
+        "tipoForm": "Titulada",
+        "nivelForm": "Tecnólogo",
+        "img": "electricidad.jpg",
+        "jornada": "Diurna"  
+      },
+    
+      {
+          "id": 8,
+          "name": "Operario Confección Industrial de Ropa",
+          "tipoForm": "Titulada",
+          "nivelForm": "Tecnólogo",
+          "img": "diseño.jpg",
+          "jornada": "Virtual"  
+      },
+    
+      {
+          "id": 9,
+          "name": " Tecnología Desarrollo Gráfico de Proyectos de Arquitectura",
+          "tipoForm": "Complementaria",
+          "nivelForm": "Tecnólogo",
+          "img": "diseño.jpg",
+          "jornada": "Virtual"  
+      },
+  
+      {
+        "id": 10,
+        "name": "Técnico en  Construcción de Edificaciones",
+        "tipoForm": "Titulada",
+        "nivelForm": "Tecnólogo",
+        "img": "electricidad.jpg",
+        "jornada": "Diurna"  
+      },
+      {
+        "id": 11,
+        "name": "Tecnología en Electricidad industrial",
+        "tipoForm": "Complementaria",
+        "nivelForm": "Tecnólogo",
+        "img": "electricidad.jpg",
+        "jornada": "Diurna"  
+      },
+    
+      {
+          "id": 12,
+          "name": "Tecnología en Análisis y desarrollo de sistemas de información",
+          "tipoForm": "Titulada",
+          "nivelForm": "Tecnólogo",
+          "img": "programacion.jpg",
+          "jornada": "Virtual"  
+      },
+    
+      {
+          "id": 13,
+          "name": " Tecnología Desarrollo Gráfico de Proyectos de Ingeniería",
+          "tipoForm": "Complementaria",
+          "nivelForm": "Tecnólogo",
+          "img": "diseño.jpg",
+          "jornada": "Virtual"  
+      },
+      {
+        "id": 14,
+        "name": "Técnico en  Construcción de Edificaciones",
+        "tipoForm": "Titulada",
+        "nivelForm": "Tecnólogo",
+        "img": "construccion.jpg",
+        "jornada": "Diurna"  
+      },
+    
+      {
+          "id": 15,
+          "name": "Técnico de Motores Diesel",
+          "tipoForm": "Titulada",
+          "nivelForm": "Tecnólogo",
+          "img": "motores.jpg",
+          "jornada": "Virtual"  
+      },
+    
+      {
+          "id": 16,
+          "name": " Metodologías de calidad para el Desarrollo de Software",
+          "tipoForm": "Complementaria",
+          "nivelForm": "Tecnólogo",
+          "img": "programacion.jpg",
+          "jornada": "Virtual"  
+      }
+    ]
+  }
+  

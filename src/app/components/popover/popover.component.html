@@ -1,0 +1,7 @@
+<ion-list>
+  <ion-item *ngFor="let ruta of rutasPopover" (click)="onClick()"
+    [routerLink]="ruta.redirecTo" detail>
+    <ion-icon slot="start" [name]="ruta.icon"></ion-icon>  
+      <ion-label>{{ruta.name}}</ion-label>
+  </ion-item>
+</ion-list>
