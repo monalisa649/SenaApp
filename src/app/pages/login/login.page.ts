@@ -51,13 +51,13 @@ onLoginGoogle(){
   this.afauth.auth.signInWithPopup(new auth.GoogleAuthProvider());
    this.router.navigateByUrl('/');
 }
-onLoginFacebook(){
+/*onLoginFacebook(){
   this.fb.login(['public_profile', 'user_friends', 'email'])
   .then((res: FacebookLoginResponse) => console.log('Logged into Facebook!', res))
   .catch(e => console.log('Error logging into Facebook', e));
-}
+}*/
 
-/*onLoginFacebook(){
+onLoginFacebook(){
  if(this.platform.is('cordova')){
    console.log('platform: cordova');
    this.facebookCordova();
@@ -101,7 +101,7 @@ this.afauth.auth
 });  
 
  }
- singOut(){
+ /*singOut(){
   this.afauth.auth.signOut();
  }*/
  
