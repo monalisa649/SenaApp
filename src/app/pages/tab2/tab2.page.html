@@ -4,7 +4,7 @@
 
 <ion-content class="ion-padding">
   <ion-card *ngFor= "let noticia of noticiaSena">
-    <ion-card-title>{{noticia.titulo}}</ion-card-title>
+    <ion-card-title (click)="openNews()">{{noticia.titulo}}</ion-card-title>
     <a href="{{noticia.url}}">Ver más</a>
     <ion-img src="/assets/icon/{{noticia.img}}"></ion-img>    
       <ion-card-content>

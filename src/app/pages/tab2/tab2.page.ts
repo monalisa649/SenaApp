@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { ServicioService } from 'src/app/servicios/servicio.service';
+import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
 
 @Component({
   selector: 'app-tab2',
@@ -9,8 +10,9 @@ import { ServicioService } from 'src/app/servicios/servicio.service';
 export class Tab2Page implements OnInit {
   noticiaSena: any[] = [];
   @Input() url:string;
+  @Input() noticia: any;
 
-  constructor(private dataService: ServicioService) {}
+  constructor(private dataService: ServicioService, public iab: InAppBrowser) {}
 
   ngOnInit() {
     this.dataService.getNoticia()// llama el servicio y trae la informacion del ion-search
@@ -19,5 +21,10 @@ export class Tab2Page implements OnInit {
         this.noticiaSena = noticia;
       });
      }
-     shareNoticia(){}
+     openNews(){
+      const browser = this.iab.create(this.noticia.url, 'system');
+     }
+     shareNoticia(){
+
+     }
    }

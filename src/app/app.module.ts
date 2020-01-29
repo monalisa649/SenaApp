@@ -18,6 +18,7 @@ import { environment } from '../environments/environment';
 import { Facebook } from '@ionic-native/facebook/ngx';
 import { AngularFireDatabaseModule, AngularFireDatabase } from '@angular/fire/database';
 import { FCM } from '@ionic-native/fcm/ngx';
+import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
 
 
 @NgModule({
@@ -37,6 +38,7 @@ import { FCM } from '@ionic-native/fcm/ngx';
     StatusBar,
     AngularFireAuth,
     SplashScreen,
+    InAppBrowser,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
     SocialSharing,
     FCM,
