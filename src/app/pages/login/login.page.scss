@@ -1,0 +1,42 @@
+ion-card{
+	display: flex;
+	align-items: inherit;
+	flex-direction: column;
+	text-align: inherit;
+	margin: auto;
+	padding: 12px;
+	font-weight: bold;
+};
+
+ion-row {
+	order: 2;
+	margin-top: 15px;
+	margin-left: 30px;
+
+	ion-button{
+		text-decoration: none;
+		padding: 10px;
+		font-weight: 600;
+		font-size: 20px;
+		color: #ffffff;
+		background-color: green;
+		border-radius: 6px;
+		//border: 2px solid #0016b0;
+	}
+  
+};
+
+ion-item{
+	display: flex;
+	align-items: inherit;
+	flex-direction: column;
+	text-align: inherit;
+	margin: auto;
+	padding: 12px;
+	font-weight: bold;
+	width: 100%;
+};
+
+ion-buttons{
+	margin-left: 30px;
+}

@@ -5,22 +5,22 @@
 <ion-content class="ion-padding">
   <ion-card *ngFor= "let noticia of noticiaSena">
     <ion-card-title (click)="openNews()">{{noticia.titulo}}</ion-card-title>
-    <a href="{{noticia.url}}">Ver más</a>
-    <ion-img src="/assets/icon/{{noticia.img}}"></ion-img>    
-      <ion-card-content>
-        {{noticia.contenido}}
-      </ion-card-content>
-        <ion-buttons > 
-          <ion-button color="danger">
-            <ion-icon name="heart"> </ion-icon>
-          </ion-button>
-          <ion-button color="secondary" (click)="shareNoticia()">
-            <ion-icon md="md-share"> </ion-icon>
-          </ion-button>
-          <ion-button color="dark">
-            <ion-icon name="logo-twitch"> </ion-icon>
-          </ion-button>
-        </ion-buttons>
+      <a href="{{noticia.url}}">Ver más</a>
+        <ion-img src="/assets/icon/{{noticia.img}}"></ion-img>    
+          <ion-card-content>
+            {{noticia.contenido}}
+          </ion-card-content>
+            <ion-buttons > 
+              <ion-button color="tertiary">
+                <ion-icon name="heart"> </ion-icon>
+              </ion-button>
+              <ion-button color="tertiary" (click)="shareNoticia()">
+                <ion-icon name="share"> </ion-icon>
+              </ion-button>
+              <ion-button color="tertiary">
+                <ion-icon name="logo-twitch"> </ion-icon>
+              </ion-button>
+            </ion-buttons>
   </ion-card>
 </ion-content>
 

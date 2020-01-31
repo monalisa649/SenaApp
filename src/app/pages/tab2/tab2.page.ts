@@ -9,7 +9,7 @@ import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
 })
 export class Tab2Page implements OnInit {
   noticiaSena: any[] = [];
-  @Input() url:string;
+  @Input() url: string;
   @Input() noticia: any;
 
   constructor(private dataService: ServicioService, public iab: InAppBrowser) {}
@@ -21,10 +21,8 @@ export class Tab2Page implements OnInit {
         this.noticiaSena = noticia;
       });
      }
-     openNews(){
+     openNews() {
       const browser = this.iab.create(this.noticia.url, 'system');
      }
-     shareNoticia(){
-
-     }
-   }
+     shareNoticia() {}
+}

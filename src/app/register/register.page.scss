@@ -1,0 +1,30 @@
+ion-card{
+	display: flex;
+	align-items: inherit;
+	flex-direction: column;
+	text-align: inherit;
+	margin: auto;
+	padding: 12px;
+	font-weight: bold;
+};
+
+ion-row {
+	order: 2;
+	margin-top: 15px;
+	margin-left: 30px;
+};
+
+ion-item{
+	display: flex;
+	align-items: inherit;
+	flex-direction: column;
+	text-align: inherit;
+	margin: auto;
+	padding: 12px;
+	font-weight: bold;
+	width: 100%;
+};
+
+ion-buttons{
+	margin-left: 30px;
+}
