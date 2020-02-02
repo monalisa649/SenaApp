@@ -1,34 +1,33 @@
-<ion-header>
-    <ion-toolbar>
-      <ion-title>Ingresar</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-header no-border>
+  <ion-toolbar>
+    <img src="/assets/icon/cabezote.png" class="cover-full">
+  </ion-toolbar>
+</ion-header>
   
-  <ion-content padding>
+<ion-content padding>
+  <ion-card>
     <ion-item>
-      <ion-label>
-        Email
-      </ion-label>
+      <ion-label  position="floating"> Email </ion-label>
       <ion-input type= "text" [(ngModel)]="user.email" required></ion-input>
     </ion-item>
     <ion-item>
-        <ion-label>
-          Contraseña
-        </ion-label>
-        <ion-input type= "password" [(ngModel)]="user.password" required></ion-input>
-      </ion-item>
-      <ion-buttons>
-        <ion-button size="medium" (click)="onLogin()">Ingresar</ion-button>
-        <ion-button size="medium" href="/register">New</ion-button>
-      </ion-buttons>
-  <ion-buttons>
-    <ion-button size="medium" (click)="onLoginFacebook()">
-      <ion-icon name="logo-facebook"></ion-icon>
-    </ion-button>
-    <ion-button size="medium" (click)="onLoginGoogle()">
-      <ion-icon name="logo-google"></ion-icon>
-    </ion-button>
+      <ion-label  position="floating"> Contraseña </ion-label>
+      <ion-input type= "password" [(ngModel)]="user.password" required></ion-input>
+    </ion-item>
+
+    <!-- <ion-row> -->
+      <ion-button  (click)="onLogin()"> Ingresar </ion-button>
+      <ion-button  href="/register"> New </ion-button>
+    <!-- </ion-row> -->
     
-  </ion-buttons>
-  </ion-content>
+    <ion-buttons>
+      <ion-button size="default" (click)="onLoginFacebook()">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </ion-button>
+      <ion-button size="default" (click)="onLoginGoogle()">
+        <ion-icon name="logo-google"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-card>
+</ion-content>
   

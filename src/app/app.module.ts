@@ -12,7 +12,7 @@ import { ComponentsModule } from './components/components.module';
 import { PipesModule } from './pipes/pipes.module';
 import { HttpClientModule } from '@angular/common/http';
 import { SocialSharing } from '@ionic-native/social-sharing/ngx';
-import{ AngularFireModule } from '@angular/fire';
+import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuthModule, AngularFireAuth } from '@angular/fire/auth';
 import { environment } from '../environments/environment';
 import { Facebook } from '@ionic-native/facebook/ngx';

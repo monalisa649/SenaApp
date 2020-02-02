@@ -14,11 +14,11 @@ import { AuthService } from '../../servicios/auth.service';
 export class Tab1Page implements OnInit {
 
   // tslint:disable-next-line: max-line-length
-  constructor(private dataService: ServicioService, 
-    private popoverCtrl: PopoverController,
-    private authService: AuthService,
-    private aFAuth: AngularFireAuth, 
-    private router: Router) {}
+  constructor(private dataService: ServicioService,
+              private popoverCtrl: PopoverController,
+              private authService: AuthService,
+              private aFAuth: AngularFireAuth,
+              private router: Router) {}
 
   ngOnInit() {
     /*
@@ -45,7 +45,7 @@ async mostrarPop(evento) {
   await popover.present();
   const { data } = await popover.onDidDismiss();
   }
-  singOut(){
+  singOut() {
     this.aFAuth.auth.signOut();
     this.router.navigateByUrl('/login');
   }

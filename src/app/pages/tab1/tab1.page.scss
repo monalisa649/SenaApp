@@ -1,8 +1,3 @@
-/*h1{
-  text-align: center;
-  font-weight: bold;
-};*/
-
 ion-card{
   display: flex;
   flex-direction: column;
@@ -23,6 +18,10 @@ ion-img{
    z-index: -100; 
    opacity: 0.75;
 };
+
+h1{
+  text-align: center;
+}
 
       
     
