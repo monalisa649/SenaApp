@@ -14,9 +14,8 @@
       <ion-label position="floating"> Contraseña </ion-label>
         <ion-input type= "password" [(ngModel)]="user.password"></ion-input>
     </ion-item>
-    <ion-row>
-      <ion-button color="medium" (click)="onRegister()">Registrarse</ion-button>
-        <ion-button color="medium"  href="/">Ingresar</ion-button>
-    </ion-row>
+
+      <ion-button  (click)="onRegister()">Registrarse</ion-button>
+      <ion-button   href="/">Ingresar</ion-button>
   </ion-card>
 </ion-content>

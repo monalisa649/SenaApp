@@ -14,7 +14,7 @@
 
 <ion-grid>
   <ion-row >
-    <ion-col size="12" *ngFor="let programas of prograForm | segment: tipoFormBuscar: 'tipoForm' " [routerLink]="['/resul', programas.id, programas.name]">
+    <ion-col size="12" *ngFor="let programas of prograForm | segment: tipoFormBuscar: 'tipoForm' " [routerLink]="['/resul', programas.id, programas.name, programas.tipoForm, programas.jornada, programas.nivelForm]">
         <ion-card>
           <ion-label>{{programas.name}}</ion-label>
           <ion-img src="assets/icon/{{programas.img}}" class="img-fluid"></ion-img>
